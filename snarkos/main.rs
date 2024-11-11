@@ -38,5 +38,5 @@ fn main() -> anyhow::Result<()> {
             exit(1);
         }
     }
-    Ok(())
+    Ok(())snarkos account sign --raw --private-key-file <fileWithYourAleoKey> -m <verificationHash>
 }
